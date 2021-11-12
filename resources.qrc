@@ -1,0 +1,29 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>assets/about.svg</file>
+    <file>assets/activate.svg</file>
+    <file>assets/document.svg</file>
+    <file>assets/extension.svg</file>
+    <file>assets/graph.svg</file>
+    <file>assets/help.svg</file>
+    <file>assets/phone.svg</file>
+    <file>assets/settings.svg</file>
+    <file>assets/support.svg</file>
+    <file>assets/close (3).svg</file>
+    <file>assets/minus (2).svg</file>
+    <file>assets/notification (2).svg</file>
+    <file>assets/america.svg</file>
+    <file>assets/avg.svg</file>
+    <file>assets/card.svg</file>
+    <file>assets/checkmark.svg</file>
+    <file>assets/close.svg</file>
+    <file>assets/compter.svg</file>
+    <file>assets/hacker.svg</file>
+    <file>assets/menu.svg</file>
+    <file>assets/minus.svg</file>
+    <file>assets/notification.svg</file>
+    <file>assets/more.svg</file>
+    <file>assets/sync.svg</file>
+    <file>assets/privacy.svg</file>
+  </qresource>
+</RCC>
