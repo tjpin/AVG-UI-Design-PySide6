@@ -50,8 +50,6 @@ class AVGui(QMainWindow, ui):
         shadow.setXOffset(0)
         shadow.setYOffset(0)
         shadow.setColor(QColor(0, 0, 0, 200))
-
-        cards = [self.card1, self.card2, self.card3, self.card4, self.card5]
         widget.setGraphicsEffect(shadow)
 
     # Move Window with mouse
