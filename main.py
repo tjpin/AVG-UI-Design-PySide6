@@ -2,8 +2,8 @@
 import sys
 
 from PySide6.QtCore import Qt
-from PySide6.QtGui import QIcon
-from PySide6.QtWidgets import QMainWindow, QApplication
+from PySide6.QtGui import QIcon, QColor
+from PySide6.QtWidgets import QMainWindow, QApplication, QGraphicsDropShadowEffect
 from PySide6.QtUiTools import loadUiType
 
 ui, _ = loadUiType("AVG ui.ui")
@@ -26,6 +26,12 @@ class AVGui(QMainWindow, ui):
         self.sideClose.clicked.connect(self.toggle_side_bar)
         self.menuBtn.clicked.connect(self.toggle_side_bar)
 
+        self.cardShadow(self.card1)
+        self.cardShadow(self.card2)
+        self.cardShadow(self.card3)
+        self.cardShadow(self.card4)
+        self.cardShadow(self.card5)
+
     def close_window(self):
         self.close()
 
@@ -37,7 +43,16 @@ class AVGui(QMainWindow, ui):
             self.sideBar.setMaximumWidth(400)
         else:
             self.sideBar.setMaximumWidth(0)
+        
+    def cardShadow(self, widget):
+        shadow = QGraphicsDropShadowEffect(self)
+        shadow.setBlurRadius(20)
+        shadow.setXOffset(0)
+        shadow.setYOffset(0)
+        shadow.setColor(QColor(0, 0, 0, 200))
 
+        cards = [self.card1, self.card2, self.card3, self.card4, self.card5]
+        widget.setGraphicsEffect(shadow)
 
     # Move Window with mouse
     def mousePressEvent(self, event):

@@ -716,7 +716,7 @@ text-align: center;</string>
             </property>
             <layout class="QHBoxLayout" name="horizontalLayout_7">
              <item>
-              <widget class="QFrame" name="frame_3">
+              <widget class="QFrame" name="card1">
                <property name="minimumSize">
                 <size>
                  <width>160</width>
@@ -857,7 +857,7 @@ border-radius: 15;</string>
               </widget>
              </item>
              <item>
-              <widget class="QFrame" name="frame_5">
+              <widget class="QFrame" name="card2">
                <property name="minimumSize">
                 <size>
                  <width>160</width>
@@ -1014,7 +1014,7 @@ border-radius: 15;</string>
               </spacer>
              </item>
              <item>
-              <widget class="QFrame" name="frame_9">
+              <widget class="QFrame" name="card3">
                <property name="minimumSize">
                 <size>
                  <width>160</width>
@@ -1155,7 +1155,7 @@ border-radius: 15;</string>
               </widget>
              </item>
              <item>
-              <widget class="QFrame" name="frame_11">
+              <widget class="QFrame" name="card4">
                <property name="minimumSize">
                 <size>
                  <width>160</width>
@@ -1296,7 +1296,7 @@ border-radius: 15;</string>
               </widget>
              </item>
              <item>
-              <widget class="QFrame" name="frame_7">
+              <widget class="QFrame" name="card5">
                <property name="minimumSize">
                 <size>
                  <width>160</width>
